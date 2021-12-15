@@ -7,7 +7,7 @@
 
 void gameMain(void)
 {
-	setGameTitle("Î¢ÐÅ´ò·É»ú");
+	setGameTitle("YZKGame");
 	setGameSize(338, 600);
 	pauseGame(10000);
 }
