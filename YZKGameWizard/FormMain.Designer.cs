@@ -84,6 +84,8 @@
             "VS2013",
             "VS2015",
             "VS2017",
+            "VS2019",
+            "VS2022",
             "DEV C++"});
             this.cmbIDEVersion.Location = new System.Drawing.Point(625, 25);
             this.cmbIDEVersion.Name = "cmbIDEVersion";

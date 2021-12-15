@@ -162,6 +162,18 @@ namespace YZKGameWizard
 					projFileNameDest = new FileInfo(Path.Combine(projectDir,projectName,projectName + ".vcxproj"));
 					slnFileNameDest = new FileInfo(Path.Combine(projectDir, projectName,projectName + ".sln"));
 					break;
+				case "VS2019":
+					slnFileNameSrc = new FileInfo(Path.Combine(templateDir, "VS2019.sln"));
+					projFileNameSrc = new FileInfo(Path.Combine(templateDir, "VS2019.vcxproj"));
+					projFileNameDest = new FileInfo(Path.Combine(projectDir, projectName, projectName + ".vcxproj"));
+					slnFileNameDest = new FileInfo(Path.Combine(projectDir, projectName, projectName + ".sln"));
+					break;
+				case "VS2022":
+					slnFileNameSrc = new FileInfo(Path.Combine(templateDir, "VS2022.sln"));
+					projFileNameSrc = new FileInfo(Path.Combine(templateDir, "VS2022.vcxproj"));
+					projFileNameDest = new FileInfo(Path.Combine(projectDir, projectName, projectName + ".vcxproj"));
+					slnFileNameDest = new FileInfo(Path.Combine(projectDir, projectName, projectName + ".sln"));
+					break;
 				default:
 					MessageBox.Show(this,"´íÎóµÄVS°æ±¾");
 					return;
