@@ -85,7 +85,8 @@
             "VS2015",
             "VS2017",
             "VS2019",
-            "VS2022"});
+            "VS2022",
+            "Dev C++"});
             this.cmbIDEVersion.Location = new System.Drawing.Point(625, 25);
             this.cmbIDEVersion.Name = "cmbIDEVersion";
             this.cmbIDEVersion.Size = new System.Drawing.Size(163, 32);
